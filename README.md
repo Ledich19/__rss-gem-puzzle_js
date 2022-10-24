@@ -1,1 +1,2 @@
-# Ledich19-__rss-gem-puzzle_js
+# ledich19-JSFE2022Q3
+Private repository for @ledich19

@@ -1,0 +1,40 @@
+.buttonsPanel {
+  flex-wrap: wrap;
+  max-width: 420px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  &__shuffle,
+  &__stop,
+  &__save,
+  &__results,
+  &__audio {
+    min-height: 50px;
+    min-width: 50px;
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: monospace;
+    color: white;
+    background: #0d9095;
+    cursor:pointer;
+    &:hover {
+      background: #0b767a;
+    }
+    &:disabled{
+      background: rgb(159, 158, 158);
+    }
+  }
+  &__shuffle {
+    flex: 1 1;
+  }
+  &__audio{
+    background: #90e690;
+    border: solid 2px #0b767a;
+   font-weight: bold;
+  }
+
+}

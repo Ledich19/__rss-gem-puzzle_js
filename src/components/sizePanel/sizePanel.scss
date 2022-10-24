@@ -1,0 +1,24 @@
+.sizePanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__text {
+    margin-top: 10px;
+    ol {
+      margin-top: 5px;
+    }
+  }
+  .sizePanel__size {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .sizePanel__btn-size {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0d9095;
+    text-decoration: none;
+    &:hover {
+      color: #096568;
+    }
+  }
+}
